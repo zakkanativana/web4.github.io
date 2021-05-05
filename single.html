@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hefa Store </title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="libraries/bootstrap/css/all.css">
+
+    <!-- Google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@200;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="asset/elements/logo_small.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav text-uppercase mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item  active">
+                        <a class="nav-link" href="#">Category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Designer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> About </a>
+                    </li>
+                </ul>
+                <a href="#" class="nav-link text-white"><i class="fas fa-shopping-cart"></i> My Cart (<span> 12 </span>)
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Breadcrumbs -->
+    <div class="container">
+        <nav>
+            <ol class="breadcrumb bg-transparent pl-0">
+                <li class="breadcrumb-item"><a href="#"> Category </a></li>
+                <li class="breadcrumb-item active" aria-current="page"> Single Product </li>
+            </ol>
+        </nav>
+    </div>
+    <!-- End Breadcrumbs -->
+
+
+    <!-- Product Single -->
+    <section class="single-product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <figure class="figure">
+                        <img src="asset/thumbnails/gambar besar.png" class="figure-img img-fluid rounded">
+                        <figcaption class="figure-caption product-thumbnail-content d-flex justify-content-between">
+                            <a href="">
+                                <img src="asset/thumbnails/1.png" alt="">
+                            </a>
+                            <a href="">
+                                <img src="asset/thumbnails/2.png" alt="">
+                            </a>
+                            <a href="">
+                                <img src="asset/thumbnails/2.png" alt="">
+                            </a>
+                            <a href="">
+                                <img src="asset/thumbnails/4.png" alt="">
+                            </a>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-lg-4">
+                    <h3> Jeans : Ziee </h3>
+                    <p class="text-muted"> IDR : 250.000 </p>
+                    <button type="button" class="btn btn-sm" style="background-color: #eaeaef; color: white;">
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    <span class="mx-2"> 20 </span>
+                    <button type="button" class="btn btn-sm btn-success" style="color: white;">
+                        <i class="fas fa-plus"></i>
+                    </button>
+
+                    <div class="btn-product">
+                        <a href="checkout.html" class="btn btn-warning text-white"> Add To Cart </a>
+                        <a type="button" class="btn" style="background-color: #eaeaef; color: #adadad;"> Add To Wishlist
+                        </a>
+                    </div>
+
+                    <div class="designed-by">
+                        <h5> Designed By : </h5>
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="asset/thumbnails/designed.png" alt="">
+                            </div>
+                            <div class="col">
+                                <h4> Zakkan Ativana </h4>
+                                <p> 12K <span> Followers </span> </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END Product Single -->
+
+
+    <!-- Product Description & Review -->
+    <div class="product-description p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab"
+                                aria-controls="description" aria-selected="true"> Product Description </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="reviews-tab" data-toggle="tab" href="#reviews" role="tab"
+                                aria-controls="reviews" aria-selected="false"> Reviews (20) </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content p-3" id="myTabContent">
+                        <div class="tab-pane fade show active product-review" id="description" role="tabpanel" aria-labelledby="description-tab">
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatum consequuntur natus omnis assumenda sit.</p>
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet quibusdam soluta minima illo, repellat recusandae ut quos eaque dolore tenetur dicta facere, suscipit at mollitia reprehenderit alias nostrum illum. Vel aliquam facere minima aut et eaque, facilis doloribus. Molestias delectus odit necessitatibus deserunt tempore officia magnam corporis neque illo consequatur?</p>
+                        </div>
+                        <div class="tab-pane fade product-review" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+                            <div class="row">
+                                <div class="col-1 d-none d-md-block">
+                                    <img src="asset/thumbnails/reviews.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <h5> Zakkan Ativana </h5>
+                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque explicabo illum veniam deleniti asperiores totam! </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1  d-none d-md-block">
+                                    <img src="asset/thumbnails/reviews.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <h5> Zakkan Ativana </h5>
+                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque explicabo illum veniam deleniti asperiores totam! </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1  d-none d-md-block">
+                                    <img src="asset/thumbnails/reviews.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <h5> Zakkan Ativana </h5>
+                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque explicabo illum veniam deleniti asperiores totam! </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1  d-none d-md-block">
+                                    <img src="asset/thumbnails/reviews.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <h5> Zakkan Ativana </h5>
+                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque explicabo illum veniam deleniti asperiores totam! </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-1 d-none d-md-block">
+                                    <img src="asset/thumbnails/reviews.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <h5> Zakkan Ativana </h5>
+                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque explicabo illum veniam deleniti asperiores totam! </p>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End review -->
+
+
+    <!-- Similar Product -->
+    <section class="similar-product">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col">
+                    <h3> Produk Yang Menyerupai </h3>
+                    <p> Pakaian pelengkap produk yang anda pilih </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4>
+                    <figure class="figure">
+                        <img src="asset/thumbnails/Mask Group 7.png" class="figure-img img-fluid">
+                        <figcaption class="figure-caption">
+                            <div class="row">
+                                <div class="col">
+                                    <h4> Zakkan Ativana </h4>
+                                    <p> Match 20% </p>
+                                </div>
+                                <div class="col align-items-center d-flex justify-content-end">
+                                    <p style="font-size: 18px;"> IDR 250.000 </p>
+                                </div>
+                            </div>
+                        </figcaption>
+                      </figure>
+                </div>
+                <div class="col-sm-4">
+                    <figure class="figure">
+                        <img src="asset/thumbnails/Mask Group 7.png" class="figure-img img-fluid">
+                        <figcaption class="figure-caption">
+                            <div class="row">
+                                <div class="col">
+                                    <h4> Zakkan Ativana </h4>
+                                    <p> Match 20% </p>
+                                </div>
+                                <div class="col align-items-center d-flex justify-content-end">
+                                    <p style="font-size: 18px;"> IDR 250.000 </p>
+                                </div>
+                            </div>
+                        </figcaption>
+                      </figure>
+                </div>
+                  <div class="col-sm-4">
+                    <figure class="figure">
+                        <img src="asset/thumbnails/Mask Group 7.png" class="figure-img img-fluid">
+                        <figcaption class="figure-caption">
+                            <div class="row">
+                                <div class="col">
+                                    <h4> White Pure </h4>
+                                    <p> Match 20% </p>
+                                </div>
+                                <div class="col align-items-center d-flex justify-content-end">
+                                    <p style="font-size: 18px;"> IDR 250.000 </p>
+                                </div>
+                            </div>
+                        </figcaption>
+                      </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Similar Product -->
+
+    <!-- Footer -->
+    <footer class="border-top p-5">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-1">
+                    <a href="">
+                        <img src="asset/features/Logo small.png" alt="">
+                    </a>
+                </div>
+                <div class="col-4 text-right">
+                    <a href="">
+                        <img src="asset/features/twitter.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="asset/features/youtube.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="asset/features/instagram.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mt-3 justify-content-between">
+                <div class="col-5">
+                    <p> All Right Reserver By Zakkan Ativana Copyright 2021. </p>
+                </div>
+                <div class="col-5">
+                    <nav class="nav justify-content-end">
+                        <a class="nav-link" href="#"> Jobs </a>
+                        <a class="nav-link" href="#"> Developer </a>
+                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link pr-0" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+    <script src="libraries/bootstrap/js/jquery-3.6.0.min.js"></script>
+    <script src="libraries/bootstrap/js/popper.js"></script>
+    <script src="libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="libraries/bootstrap/js/all.js"></script>
+
+</body>
+
+</html>

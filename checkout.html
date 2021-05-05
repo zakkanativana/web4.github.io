@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hefa Store </title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="libraries/bootstrap/css/all.css">
+
+    <!-- Google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@200;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container cart-header">
+        <div class="row mt-5 text-center">
+            <div class="col">
+                <h3> Your Cart </h3>
+                <p> Pastikan barang anda terbayar lunas ! </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Breadcrumbs -->
+    <div class="container">
+        <nav>
+            <ol class="breadcrumb bg-transparent pl-0 cart-breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html"> Home </a></li>
+                <li class="breadcrumb-item active" aria-current="page"> Cart Checkout </li>
+            </ol>
+        </nav>
+    </div>
+    <!-- End Breadcrumbs -->
+
+    <!-- Checkout -->
+    <section class="checkout">
+        <div class="container">
+            <div class="row justify-content-between" style="margin-bottom: 100px;">
+                <div class="col-lg-6">
+                    <h4 class="mb-4"> Your Items </h4>
+                        <div class="row mb-4">
+                            <div class="col-2">
+                                <img src="asset/thumbnails/checkout1.png" alt="">
+                            </div>
+                            <div class="col-4">
+                                <h5 class="m-0"> Jeans Dilan </h5>
+                                <p class="m-0" style="color: #b7b7b7;"> IDR 250.000 </p>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-sm" style="background-color: #eaeaef; color: white;">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                                <span class="mx-2"> 20 </span>
+                                <button type="button" class="btn btn-sm btn-success" style="color: white;">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="col-2 text-right">
+                                <button type="button" class="btn btn-sm btn-danger" style="color: white;">
+                                    <i class="fas fa-times-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-2">
+                                <img src="asset/thumbnails/checkout1.png" alt="">
+                            </div>
+                            <div class="col-4">
+                                <h5 class="m-0"> Jeans Dilan </h5>
+                                <p class="m-0" style="color: #b7b7b7;"> IDR 250.000 </p>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-sm" style="background-color: #eaeaef; color: white;">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                                <span class="mx-2"> 20 </span>
+                                <button type="button" class="btn btn-sm btn-success" style="color: white;">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="col-2 text-right">
+                                <button type="button" class="btn btn-sm btn-danger" style="color: white;">
+                                    <i class="fas fa-times-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-2">
+                                <img src="asset/thumbnails/checkout1.png" alt="">
+                            </div>
+                            <div class="col-4">
+                                <h5 class="m-0"> Jeans Dilan </h5>
+                                <p class="m-0" style="color: #b7b7b7;"> IDR 250.000 </p>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-sm" style="background-color: #eaeaef; color: white;">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                                <span class="mx-2"> 20 </span>
+                                <button type="button" class="btn btn-sm btn-success" style="color: white;">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                            <div class="col-2 text-right">
+                                <button type="button" class="btn btn-sm btn-danger" style="color: white;">
+                                    <i class="fas fa-times-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                    <h4 class="mb-3" style="margin-top: 100px;"> Your Address </h4>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1"> Alamat Lengkap </label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Alamat Lengkap.... ">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1"> Alamat Tambahan </label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Alamat Tambahan ">
+                        </div>
+                        <div class="form-group">
+                            <label for="city"> Kota </label>
+                            <select class="custom-select">
+                                <option selected> Select City </option>
+                                <option value="1"> Tangerang </option>
+                                <option value="2"> Bandung </option>
+                                <option value="3"> Yogyakarta </option>
+                              </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="city"> Kota </label>
+                            <select class="custom-select">
+                                <option selected> Select Country </option>
+                                <option value="1"> Indonesia </option>
+                                <option value="2"> Singapore </option>
+                                <option value="3"> Australia </option>
+                              </select>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="card rounded-0 checkout-detail" >
+                        <div class="card-body">
+                          <h5 class="card-title"> Informasi Biaya </h5>
+                            
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0"> Jeans Dilan </h6>
+                                    <small style="color: #b7b7b7;"> 2 Items </small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-success"> IDR 250.000 </h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0"> Jeans Dilan </h6>
+                                    <small style="color: #b7b7b7;"> 2 Items </small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-success"> IDR 250.000 </h6>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0"> Kurir </h6>
+                                    <small style="color: #b7b7b7;"> JNE Express </small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-success"> IDR 25.000 </h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0"> Eid Promo </h6>
+                                    <small style="color: #b7b7b7;"> 10% Off </small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-danger"> - IDR 25.000 </h6>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0"> Total Harga </h6>
+                                  
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align-self-center text-primary"> IDR 320.000 </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col">
+                            <button type="button" class="btn btn-block" style="background-color: #eaeaef; color: #adadad;"> Cancel </button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-block btn-warning" data-toggle="modal" data-target="#checkoutModal"> Checkout </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Checkout -->
+  
+
+
+    <!-- Modal -->
+    <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade checkout-modal-success" id="checkoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+      
+        <div class="modal-body text-center">
+            <img src="asset/thumbnails/checkout.png" alt="" class="mb-5">
+            <h3> Checkout Berhasil </h3>
+            <p> Barang akan segera dikirim ke alamat anda </p>
+            <button type="button" class="btn mt-3"  style="background-color: #eaeaef; color: #adadad;" data-dismiss="modal"> Close </button>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+
+   
+
+    <!-- Footer -->
+    <footer class="border-top p-5">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-1">
+                    <a href="">
+                        <img src="asset/features/Logo small.png" alt="">
+                    </a>
+                </div>
+                <div class="col-4 text-right">
+                    <a href="">
+                        <img src="asset/features/twitter.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="asset/features/youtube.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="asset/features/instagram.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row mt-3 justify-content-between">
+                <div class="col-5">
+                    <p> All Right Reserver By Zakkan Ativana Copyright 2021. </p>
+                </div>
+                <div class="col-5">
+                    <nav class="nav justify-content-end">
+                        <a class="nav-link" href="#"> Jobs </a>
+                        <a class="nav-link" href="#"> Developer </a>
+                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link pr-0" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+    <script src="libraries/bootstrap/js/jquery-3.6.0.min.js"></script>
+    <script src="libraries/bootstrap/js/popper.js"></script>
+    <script src="libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="libraries/bootstrap/js/all.js"></script>
+
+</body>
+
+</html>
